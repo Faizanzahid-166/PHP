@@ -69,7 +69,7 @@ if ($conn->query($sql) == true) {
 		           echo"<p class='text-green-500 text-center -mt-6 mb-2'>signup successfully</p>";
 		 }
 		?>
-		<form action="test.php" method="POST" class="grid gap-10 self-center">
+		<form action="sign_up.php" method="POST" class="grid gap-10 self-center">
 			<input class="w-full bg-gray-700 text-white border-0 rounded-md p-2 focus:bg-gray-600 focus:outline-none 
 			              transition ease-in-out duration-150 placeholder-gray-300 "
 			              type="text" name="name" placeholder="first_name">
